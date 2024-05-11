@@ -237,7 +237,7 @@ section{
 
 .achievements-container{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   align-items: center;
   gap: 2.5rem;
 }
@@ -291,7 +291,7 @@ section{
 
 .services-container{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   align-items: center;
   gap: 2.5rem;
 }
@@ -455,6 +455,11 @@ section{
   .about img{
     width: 52vw;
   }
+
+  .achievements h2{
+    font-size: 3.5rem;
+  }
+
   .contact form{
     flex-direction: column;
   }
